@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    chat_id: '7433299603',
+                    chat_id: '6852399576',
                     text: message
                 })
             })
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({
                                 chat_id: '6852399576',
-                                photo: `C:\Users\anisi\Documents\Vs Code\shoppingsite-main\/${img}`
+                                photo: `https://iqvik.github.io/jkl/${img}`
                             })
                         })
                         .then(response => response.json())
